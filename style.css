@@ -1,0 +1,51 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    padding: 5vh 5vw;
+}
+
+nav button {
+    width: 50%;
+    height: 15vh;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ul {
+    padding-inline-start: 8%;
+}
+
+ul li {
+    font-size: 1.4rem;
+}
+
+.none {
+    list-style: none;
+}
+
+.none li span {
+    vertical-align: super;
+}
